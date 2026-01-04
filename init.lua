@@ -1,6 +1,7 @@
 require("core.options")
 require("core.lazy")
 require("core.keymaps")
+require("core.autocmds")
 
 require("plugins.telescope")
 require("plugins.treesitter")
