@@ -12,6 +12,7 @@ opt.showmode = false
 opt.undofile = true
 opt.updatetime = 250
 
+opt.winborder = "rounded"
 
 opt.tabstop = 2
 opt.shiftwidth = 2
@@ -24,9 +25,9 @@ opt.ignorecase = true
 
 opt.wrap = false
 
+-- if on arch kde, install wl-clipboard package
 vim.schedule(function()
 	opt.clipboard = "unnamedplus"
-
 end)
 
 opt.ignorecase = true
